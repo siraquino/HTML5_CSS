@@ -1,0 +1,85 @@
+*{
+    margin:0;
+}
+body {
+    background-color: burlywood;
+}
+#showcase {
+    display: flex;
+    margin-top: 150px;
+    /* height: 50vh;
+    width: 100vw;
+    height: 50vh;
+    width: 100vw; */
+    min-height: 450px;
+    color: rgb(77, 73, 73);
+    text-align: center;
+}
+
+#showcase .bg-image {
+    position: absolute;
+    /* background: #333 url('tps://images..com/photos/51524/pexels-photo-51524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+    background: rgb(219, 213, 213);
+    background-image: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    background-size: cover; 
+    /* background-size: contain; */
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    /* opacity: 0.4; */
+    opacity: 0.4;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+#showcase h2 {
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#showcase .content-wrap {
+    /* padding: 0 1.5em; */
+    /* Si no deseas ver la imagen usa backgroung */
+    /* background:#f6b93b; */
+    /* background:#E8E1BE; */
+    /* background: #666; */
+    padding: 0;
+}
+#showcase .content-wrap p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    /* padding: 1em 1em 3em 3em; */
+    padding: 3em;
+    color: rgb(73, 72, 72);
+    background: #fff;
+    /* opacity: 0.4; */
+    opacity: 0.8;
+    /* box-sizing: border-box; */
+    
+}
+.btn {
+    display: inline-block;
+    /* background: #FF9966; */
+    background:#fff;
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: .5em 0;
+    opacity: 0.4;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.btn:hover {
+    background: #fff;
+    color: black;
+    text-align: center;
+}
