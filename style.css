@@ -1,4 +1,36 @@
 img {
     border-radius: 50%;
-    border: 3px solid rgba(12, 131, 243, 0.849);
+    border: 1px solid rgba(12, 131, 243, 0.849);
+}
+
+
+.referencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8em;
+    font-weight: bold;
+}
+.referencia img{
+    margin-right: 5px;
+}
+
+.lista li{
+	display: inline-block;
+	padding: 2px;
+	margin: 5px;
+	border-color: white;
+	border-radius: 0px; 
+}
+.lista li:hover{
+	background-color:rgb(238, 237, 237);
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border-color: grey;
+	border-style: solid;
+	border-radius: 9px; 
 }
